@@ -38,16 +38,45 @@ table {
 	font-weight: bold;
 }
 
+#currdata {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-size: 12px;
+	padding-top:4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+}
+
+#gdpimg {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#cpidata {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-size: 12px;
+	padding-top:4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+}
+
 #equimg {
 	width: 80%;
 	height: auto;
 	max-width: 100%;
 	min-width: 60%;
-}
-
-#gdpimg {
-	width: 60%;
-	height: auto;
 }
 
 #wcsimg {
@@ -71,6 +100,21 @@ table {
 	height: auto;
 }
 
+#finadata {
+	display: inline-block;
+}
+
+#oilfin1 {
+	float: left;
+	width: 50%;
+	height: auto;
+}
+
+#oilfin2 {
+	float: right;
+	width: 50%;
+	height: auto;
+}
 
 a:link {
 	color: black;
