@@ -59,6 +59,14 @@ table {
 	margin-left: auto;
 }
 
+#cpiimg {
+	display: block;
+	width: 70%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #cpidata {
 	margin-left: auto;
 	margin-right: auto;
