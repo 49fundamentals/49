@@ -1,149 +1,193 @@
 .body {
-	width: 			90%;
-	margin-right: 	auto;
-	margin-left: 	auto;
+	width: 				90%;
+	margin-right: 		auto;
+	margin-left: 		auto;
 }
 
 h2 {
-	text-align: 	center;
-	font-size: 		16px;
-	font-family: 	'courier new';
+	text-align: 		center;
+	font-size: 			16px;
+	font-family: 		'courier new';
 }
 
 p {
-	font-size: 		13px;
-	font-family: 	'courier new';
+	font-size: 			13px;
+	font-family: 		'courier new';
+
 }
 
 hr {
-	margin-top: 14px;
-	margin-bottom: 14px;
+	margin-top: 		14px;
+	margin-bottom:		14px;
 }
 
 table {
-	font-size: 10px;
+	font-size: 			10px;
 }
 
 .header {
-	text-align: center;
+	text-align: 		center;
 }
 
 #date {
-	font-style: 	italic;
-	text-align: 	center;
+	font-style: 		italic;
+	text-align: 		center;
 }
 
 .brief {
-	text-align: center;
-	font-weight: bold;
+	text-align: 		center;
 }
 
 #currdata {
-	margin-left: auto;
-	margin-right: auto;
-	border: 1px solid black;
-	border-collapse: collapse;
-	font-size: 12px;
-	padding-top:4px;
-	padding-bottom: 4px;
-	padding-left: 8px;
-	padding-right: 8px;
-	text-align: center;
+	margin-left:		auto;
+	margin-right:		auto;
+	border:				1px solid black;
+	border-collapse:	collapse;
+	font-size:			12px;
+	padding-top:		4px;
+	padding-bottom:		4px;
+	padding-left:		8px;
+	padding-right:		8px;
+	text-align:			center;
+}
+
+#gdpquot {
+	margin-left:		14%;
+	margin-right:		14%;
+}
+
+#gdpdata {
+	float: 				left;
 }
 
 #gdpimg {
-	display: block;
-	width: 100%;
-	height: auto;
-	margin-right: auto;
-	margin-left: auto;
+	float: 				left;
+	display:			block;
+	width:				48%;
+	height:				auto;
 }
 
-#cpiimg {
-	display: block;
-	width: 70%;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
+#provimg {
+	float: 				right;
+	display: 			block;
+	width: 				48%;
+	height: 			auto;
+}
+
+#intequot {
+	margin-left:		14%;
+	margin-right:		14%;
 }
 
 #cpidata {
-	margin-left: auto;
-	margin-right: auto;
-	border: 1px solid black;
-	border-collapse: collapse;
-	font-size: 12px;
-	padding-top:4px;
-	padding-bottom: 4px;
-	padding-left: 8px;
-	padding-right: 8px;
-	text-align: center;
+	margin-left:		auto;
+	margin-right:		auto;
+	border:				1px solid black;
+	border-collapse:	collapse;
+	font-size:			12px;
+	padding-top:		4px;
+	padding-bottom:		4px;
+	padding-left:		8px;
+	padding-right:		8px;
+	text-align:			center;
+}
+
+#cpicharts {
+	float: 				left;
+}
+
+#cpiimg {
+	float: 				left;
+	display:			block;
+	width:				45%;
+	height:				auto;
+	margin-bottom: 		14px;
+}
+
+#cpihist {
+	float: 				right;
+	display: 			block;
+	width: 				55%;
+	height:				auto;
+}
+
+#equidata {
+	margin-left:		auto;
+	margin-right:		auto;
+	border:				1px solid black;
+	border-collapse:	collapse;
+	font-size:			12px;
+	padding-top:		4px;
+	padding-bottom:		4px;
+	padding-left:		8px;
+	padding-right:		8px;
+	text-align:			center;
 }
 
 #equimg {
-	width: 80%;
-	height: auto;
-	max-width: 100%;
-	min-width: 60%;
+	width:				80%;
+	height: 			auto;
+	max-width: 			100%;
+	min-width: 			60%;
 }
 
 #wcsimg {
-	width: 90%;
-	height: auto;
+	width: 				90%;
+	height: 			auto;
 }
 
 #houimg {
-	width: 60%;
-	height: auto;
+	width: 				60%;
+	height: 			auto;
 
 }
 
 #comreimg {
-	width: 60%;
-	height: auto;
+	width: 				60%;
+	height: 			auto;
 }
 
 #oileximg {
-	width: 60%;
-	height: auto;
+	width: 				60%;
+	height: 			auto;
 }
 
 #finadata {
-	display: inline-block;
+	display: 			inline-block;
 }
 
 #oilfin1 {
-	float: left;
-	width: 50%;
-	height: auto;
+	float: 				left;
+	width: 				50%;
+	height: 			auto;
 }
 
 #oilfin2 {
-	float: right;
-	width: 50%;
-	height: auto;
+	float: 				right;
+	width: 				50%;
+	height: 			auto;
 }
 
 a:link {
-	color: black;
-	font-weight: bold;
-	text-decoration: none;
+	color: 				black;
+	font-weight: 		bold;
+	text-decoration: 	none;
 }
 
 a:visited {
-	color: black;
-	font-weight: bold;
-	text-decoration: none;
+	color: 				black;
+	font-weight: 		bold;
+	text-decoration: 	none;
 }
 
 a:hover {
-	color: black;
-	font-weight: bold;
-	text-decoration: none;
+	color: 				black;
+	font-weight: 		bold;
+	text-decoration: 	none;
 }
 
 a:active {
-	color: black;
-	font-weight: bold;
-	text-decoration: none;
+	color: 				black;
+	font-weight: 		bold;
+	text-decoration: 	none;
 }
