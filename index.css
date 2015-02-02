@@ -142,7 +142,6 @@ table {
 	margin-left: 		auto;
 }
 
-
 #gocyieldimg {
 	float: 				left;
 	display:			block;
@@ -195,29 +194,38 @@ table {
 }
 
 #comreimg {
-	width: 				60%;
+	display: 			block;
+	width: 				40%;
 	height: 			auto;
+	margin-right: 		auto;
+	margin-left: 		auto;
 }
 
 #oileximg {
-	width: 				60%;
+	display: 			block;
+	width: 				50%;
 	height: 			auto;
+	margin-right: 		auto;
+	margin-left: 		auto;
 }
 
 #finadata {
-	display: 			inline-block;
+	float: 				left;
 }
 
 #oilfin1 {
 	float: 				left;
-	width: 				50%;
-	height: 			auto;
+	display:			block;
+	width:				45%;
+	height:				auto;
+	margin-bottom: 		14px;
 }
 
 #oilfin2 {
 	float: 				right;
-	width: 				50%;
-	height: 			auto;
+	display: 			block;
+	width: 				45%;
+	height:				auto;
 }
 
 a:link {
