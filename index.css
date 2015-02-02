@@ -116,12 +116,21 @@ table {
 	margin-right:		auto;
 	border:				1px solid black;
 	border-collapse:	collapse;
-	font-size:			12px;
+	font-size:			11px;
 	padding-top:		4px;
 	padding-bottom:		4px;
 	padding-left:		8px;
 	padding-right:		8px;
 	text-align:			center;
+}
+
+#sectorimg {
+	display: 			block;
+	width:				 40%;
+	height: 			auto;
+	margin-right: 		auto;
+	margin-left: 		auto;
+	margin-top: 		14px;
 }
 
 #equimg {
