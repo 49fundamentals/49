@@ -209,23 +209,26 @@ table {
 	margin-left: 		auto;
 }
 
-#finadata {
-	float: 				left;
-}
-
 #oilfin1 {
-	float: 				left;
 	display:			block;
 	width:				45%;
 	height:				auto;
+	margin-left: 		auto;
+	margin-right: 		auto;
 	margin-bottom: 		14px;
 }
 
 #oilfin2 {
-	float: 				right;
 	display: 			block;
-	width: 				45%;
+	width: 				40%;
 	height:				auto;
+	margin-left: 		auto;
+	margin-right: 		auto;
+	margin-bottom: 		14px;
+}
+
+#footer {
+	margin-top: 14px;
 }
 
 a:link {
